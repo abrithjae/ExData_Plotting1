@@ -1,3 +1,5 @@
+# the "dplyr" and "lucidate" packages are loaded prior to running this code
+
 # reading relevant data
 data <- read.table("household_power_consumption.txt", sep = ";", skip = 66637, nrows = 2880)
 
